@@ -14,7 +14,7 @@ namespace lab3
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-E6P6QHE\\SQLEXPRESS;Database=lab3;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-I6DQEF\\SQLEXPRESS;Database=lab3;Trusted_Connection=True;");
         }
     }
 }
